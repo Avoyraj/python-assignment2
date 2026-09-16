@@ -1,0 +1,5 @@
+user_name = input("Enter your name: ")
+file = open("name.txt", "w")
+file.write(user_name)
+file.close()
+print("File created successfully.")
